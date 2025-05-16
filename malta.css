@@ -1,0 +1,194 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(235,235,235);
+    width: auto;
+    gap: 30px;
+    align-items: center;
+    height: auto;
+
+}
+ul{
+    display: flex;
+    gap: 10rem;
+    margin-top: 30px;
+
+
+}
+li {
+    display: flex;
+    text-shadow: 0 1px  1px rgb(196,0,34);;
+    font-family: Copperplate;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+    background-image:url("Photos/malta_flag.jpg") ;
+    padding: 30px;
+    background-position: center;
+
+}
+header{
+    display: flex;
+    gap: 700px;
+    margin: 0 30px;
+    background-color: rgb(235,235,235);
+    padding: 0 25px;
+    align-items: center;
+
+}
+
+
+
+div{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div h1{
+    background-color: rgb(196,0,34);
+    padding: 5px 20px;
+    font-family: Copperplate;
+    font-size: 40px;
+}
+
+div h2{
+    margin-top: -35px;
+    font-family: Papyrus ;
+    font-size: 130px;
+
+}
+section{
+display: flex;
+    justify-content: center;
+}
+
+video{
+    margin-top: -150px;
+
+}
+
+img{
+    width: 500px;
+    height: 500px;
+
+}
+footer img{
+width: 70px;
+    height: 70px;
+}
+
+.lista_karticka .element_karticka{
+    list-style: none;
+
+}
+
+.lista_karticka .element_karticka .link_karticka{
+    width: 300px;
+    height: 300px;
+    display: block;
+    background:rgb(196,0,34) ;
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.lista_karticka .slika_karticka .link_karticka{
+    width: 100%;
+
+    border-radius: 10px;
+
+
+}
+.element_karticka:hover{
+    background: none;
+
+
+}
+
+.slika_karticka{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+
+}
+.element_karticka{
+    display: flex;
+    flex-direction: column;
+}
+
+.element_karticka h3{
+    text-shadow: 1px 3px  1px rgb(196,0,34);;
+    font-family: Copperplate;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(235,235,235);
+    padding-top: -80px;
+    background: black;
+    align-self: center;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.lista_karticka{
+    display: flex;
+    gap: 0;
+}
+
+.mapouter{
+    margin-top: -120px;
+}
+
+footer.culture{
+    margin-top: -86px;
+}
+h2.culture{
+    font-size: 100px;
+}
+marquee{
+speech-rate: fast;
+
+}
+
+div.gallery {
+    display: flex;
+    flex-direction: row; !important;
+    gap: 5px;
+    width: 610px;
+    height: 610px;
+
+
+}
+div.red{
+    gap: 5px;
+}
+div.red img{
+    height: 200px;
+    width: 200px;
+}
+
+div.gallery marquee{
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 50%;
+    animation: marquee-scroll 30s paused infinite;
+}
+
+
+
+
+
+
